@@ -73,7 +73,7 @@ html {
 
 .btn {
     display: inline-block;
-    padding: 11px 20px;
+    padding: 12px 20px;
     border: 1px solid #000;
     outline: none;
 
@@ -116,7 +116,7 @@ body {
 
     height: 50px;
     
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(45, 45, 48, 0.9);
     
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 4px;
@@ -139,9 +139,29 @@ body {
 
 }
 
+#bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: none;
+    
+    color: #fff;
+    font-size: 24px;
+}
+
+#bar:hover {
+    opacity: 1;
+}
+
+#bar .menu-bar-icon {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
 #navbar {
     float: right;
-
     font-size: 11px;
 }
 
@@ -164,7 +184,7 @@ body {
     display: block;
 
     height: 50px;
-    padding: 0 20px;
+    padding: 0 16px;
     
     text-decoration: none;
     line-height: 50px;
@@ -191,7 +211,7 @@ body {
     padding: 5px 0;
 
     color: #777;
-    background: #eaeaeb;
+    background: rgba(234 234 235 / 0.9);
 
     font-size: 14px;
 
@@ -214,7 +234,7 @@ body {
 
 #navbar .subnav li:hover a{
     color: #fff;
-    background-color: #ff354f;
+    background-color: rgba(255, 0, 0, 0.9);
 }
 
 
@@ -224,7 +244,7 @@ body {
 
     padding-top: var(--slider-img-ratio);
     
-    background: url("/assets/img/slider/la.jpg") top center / cover no-repeat;
+    background: url("../../assets/img/slider/la.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -232,8 +252,11 @@ body {
     bottom: 60px;
     left: 50%;
     transform: translateX(-50%);
+
     color: #fff;
+
     text-align: center;
+    text-shadow: 0 0 2px #000;
 }
 
 #slider .text-heading {
@@ -256,6 +279,7 @@ body {
 
 .content-section {
     width: 1170px;
+    max-width: 100%;
     padding: 80px 120px;
     margin-left: auto;
     margin-right: auto;
@@ -393,6 +417,14 @@ body {
     margin-top: 15px;
 }
 
+.contact-section contact-info a {
+    color:rgb(44 62 240 / 0.8);
+}
+
+.contact-section contact-info a:hover {
+    color:rgb(44 62 240);
+}
+
 .form-control::placeholder {
     color: #aaa;
 }
@@ -403,7 +435,10 @@ body {
     padding: 8px 12px;
     border: 1px solid#ccc;
     outline: none;
+
     color: #777;
+
+    font-family: inherit;
     resize: none;
 }
 

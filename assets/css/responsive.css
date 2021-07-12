@@ -1,0 +1,107 @@
+/* PC  */
+
+/* Tablet & PC old  */
+@media (max-width: 1023px) {
+    .l-col-full {
+        width: 100%;
+    }
+    .l-mb-16 {
+        margin-bottom: 16px;
+    }
+
+    .form-control {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    #navbar .subnav li a {
+        height: 44px;
+        line-height: 44px;
+    }
+
+}
+/* PC old  */
+@media (min-width: 950px) and (max-width: 1023px) {
+    .members-list .member-img {
+        width: 178px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 767px) and (max-width: 950px) {
+    .members-list .member-img {
+        width: 120px;
+    }
+}
+/* Mobile  */
+@media (max-width: 767px) {
+    .m-col-full {
+        width: 100% !important;
+    }
+
+    .m-mb-8 {
+        margin-bottom: 8px !important;
+    }
+
+    .btn {
+        width: 100%;
+        font-weight: 700;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #logo {
+        display: block;
+    }
+
+    #bar {
+        display: block;
+        opacity: 0.8;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    #navbar li {
+        display: block;
+    }
+
+    #navbar .subnav {
+        position: initial;
+
+        background-color: initial;
+        box-shadow:  initial;
+    }
+    
+    #navbar .subnav li a {
+        padding: 0 36px;
+        color: #fff;
+    }
+
+    .content-section {
+        padding: 80px 40px;
+    }
+
+    .members-list .member-img {
+        width: 60%;
+    }
+
+    #tour {
+        padding: 0 5%;
+    }
+
+    #footer .link {
+        font-size: 18px;
+        color: #4040ff;
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 600px) {
+    #slider .text-content {
+        display: none;
+    }
+}
